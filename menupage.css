@@ -1,0 +1,211 @@
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+  .navbar {
+    margin-left: -8;
+    overflow: hidden;
+    background-color: #F0E6EF;
+    position: fixed;
+    top: 0;
+    width: 105%;
+    height: 92px; 
+    border-bottom: 1px solid #160C28;
+    display: flex;
+    align-items: center; 
+    z-index: 1;
+  }
+  .navbar a {
+    color: #160C28;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    border-right: 1px solid #160C28;
+    line-height:92px;
+  }
+  .navbar a:hover {
+    background: #160C28;
+    color: #F0E6EF;
+  }
+  .website {
+    margin-top: 92px;
+  }
+  .titlechecker {
+    background-image: url(titlechecker.png);
+    height: 306px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #160C28;
+  }
+  .textcontainer {
+    width: 644px;
+    border-radius: 134px;
+    background-color: #F0A6CA;
+    text-align: center;
+    filter: drop-shadow(0 19px 0 #160C28);
+    display: flex;
+    justify-content: center;
+  }
+  .quote {
+    background-color: #F2C3E6;
+    padding: 20px; 
+    border-bottom: 1px solid #160C28;
+  }
+  .recomendedbyus{
+    background-color: #F0A6CA;
+  }
+  .menucontainer-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  .menucontainer {
+    padding: 10px;
+    border: 1px solid;
+    width: fit-content;
+    margin-right: 30px;
+    scroll-snap-align: start;
+    background-color: #F0E6EF;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  .menucontainer:hover {
+    transform: scale(1.1);
+    background-color: #F2C3E6;
+  }
+  
+  .menucontainer:hover::after {
+    content: "Layers of delicate crepes, stacked high and filled with luscious cream";
+    font-family: "Montserrat", sans-serif;
+    color: #160C28;
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #F0A6CA;
+    border: 1px solid #160C28;
+    text-align: left;
+    font-size: 15px;
+  }
+  .recomendedbyuscarousel {
+    width: 1143px;
+    height: 356px;
+    margin: auto;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .menupageb{
+    background-color: #F0E6EF;
+  }
+  .menubuttons {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 1209px;
+    height: 68px;
+    margin: auto;
+  }
+  .menupageb button {
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    color: #160C28;
+    text-align: center;
+    text-decoration: none;
+    background-color: #F0E6EF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid #160C28;
+  }
+  
+  .menupageb button:hover {
+    background-color: #160C28;
+    color: #F0E6EF;
+  }
+  .menuitems{
+    max-width: 1092px;
+    margin: auto;
+  }
+  .menuitems img{
+    width: 100%;
+    height: auto;
+    border: 1px solid #160C28;
+  }
+  #item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+  }
+  .item {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+  
+  .menupagec{
+    background-image: radial-gradient(#F0E6EF, #F2C3E6, #F0A6CA);
+  }
+  .menupagec table{
+    margin: auto;
+    padding-bottom: 35px;
+  }
+  .menupagec table td{
+    padding: 10px;
+  }
+  .menupagec table p{
+    font-size: 18px;
+    color: #160C28;
+  }
+  .menupagec table img{
+    height: 90px;
+    width: 90px;
+  }
+  .ordernowthrough a {
+    color: #160C28;
+    text-decoration: none;
+  }
+  .footerrow {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(#F0A6CA, #160C28);
+    padding: 20px 0;
+  }
+  .footera,
+  .footerb {
+    width: 50%;
+    padding: 0 20px;
+  }
+  .footerb table {
+    margin-right: 0;
+  }
+  .footerb table td {
+    padding: 10px;
+  }
+  .footerb tr {
+    height: fit-content;
+  }
+  .footerb table img {
+    height: 24px;
+    width: 24px;
+  }
+  .footerb a{
+    color: #F0E6EF;
+    text-decoration: none;
+  }

@@ -1,0 +1,127 @@
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar {
+    margin-left: -8;
+    overflow: hidden;
+    background-color: #F0E6EF;
+    position: fixed;
+    top: 0;
+    width: 105%;
+    height: 92px; 
+    border-bottom: 1px solid #160C28;
+    display: flex;
+    align-items: center; 
+    z-index: 1;
+  }
+  .navbar a {
+    color: #160C28;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    border-right: 1px solid #160C28;
+    line-height:92px;
+  }
+  .navbar a:hover {
+    background: #160C28;
+    color: #F0E6EF;
+  }
+  .website {
+    margin-top: 92px;
+  }
+  .contactusacontainer {
+    background-image: url(contactusbg.png);
+    background-size: cover;
+}
+
+  .contactusa{
+    display: flex;
+    background-color: transparent;
+
+  }
+  .textcontainer{
+    width:1024px;
+    border-radius: 134px;
+    background-color: #F0A6CA;
+    text-align: center;
+    filter: drop-shadow(0 19px 0 #160C28);
+    margin: auto;
+    margin-top: 44px;
+  }
+  .aboutcontent{
+    padding-top: 44px;
+    background-color: transparent;
+
+  }
+  .findushere{
+    background-color: #F2C3E6;
+    border-top: 1px solid #160C28;
+    border-bottom : 1px solid #160C28;
+  }
+  .findushere table{
+    margin: auto;
+    padding-bottom: 35px;
+  }
+  .findushere table td{
+    padding: 10px;
+  }
+  .findushere table p{
+    font-size: 18px;
+    color: #160C28;
+  }
+  .findushere table img{
+    height: 90px;
+    width: 90px;
+  }
+  .findushere a{
+    color: #160C28;
+    text-decoration: none;
+  }
+  .contactusb{
+    background-image: radial-gradient(#F0E6EF, #B8BFDD);
+  }
+  .contactusb table{
+    margin: auto;
+    width: 1093px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+  }
+  .contactusb table p {
+    font-size: 20px;
+    color: #160C28;
+    padding-left: 10px;
+  }
+  .footerrow {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(#F0A6CA, #160C28);
+    padding: 20px 0;
+  }
+  .footera,
+  .footerb {
+    width: 50%;
+    padding: 0 20px;
+  }
+  .footerb table {
+    margin-right: 0;
+  }
+  .footerb table td {
+    padding: 10px;
+  }
+  .footerb tr {
+    height: fit-content;
+  }
+  .footerb table img {
+    height: 24px;
+    width: 24px;
+  }

@@ -1,0 +1,190 @@
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar {
+  margin-left: -8;
+  overflow: hidden;
+  background-color: #F0E6EF;
+  position: fixed;
+  top: 0;
+  width: 105%;
+  height: 92px; 
+  border-bottom: 1px solid #160C28;
+  display: flex;
+  align-items: center; 
+  z-index: 1;
+}
+.navbar a {
+  color: #160C28;
+  width: 20%;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-size: 17px;
+  border-right: 1px solid #160C28;
+  line-height:92px;
+}
+.navbar a:hover {
+  background: #160C28;
+  color: #F0E6EF;
+}
+
+
+.website {
+  margin-top: 92px;
+}
+.homescreena {
+  background-image: radial-gradient(#F2C3E6, #F2C3E6, #F0A6CA);
+  height: 640px;
+  width: 100%;
+}
+.logo {
+  height: 640px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titletext {
+  position: absolute;
+  left: 134px; 
+  top: 208px; 
+}
+.menucontianer p{
+  color: #160C28;
+}
+.homescreenb {
+  background-color:#F0E6EF;
+  width: 100%;
+  height: fit-content;
+}
+.textcontainer{
+  width:644px;
+  border-radius: 134px;
+  background-color: #F0A6CA;
+  text-align: center;
+  padding-top: 42 px;
+  filter: drop-shadow(0 19px 0 #160C28);
+}
+.menucontainer-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: visible;
+}
+
+.menucontainer {
+  position: relative;
+  padding: 10px;
+  border: 1px solid;
+  width: fit-content;
+  margin-right: 30px;
+  scroll-snap-align: start;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.menucontainer:hover {
+  transform: scale(1.1);
+  background-color: #F2C3E6;
+}
+
+.menucontainer:hover::after {
+  content: "Layers of delicate crepes, stacked high and filled with luscious cream";
+  font-family: "Montserrat", sans-serif;
+  color: #160C28;
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #F0A6CA;
+  border: 1px solid #160C28;
+  text-align: left;
+  font-size: 15px;
+}
+
+.recomendedbyuscarousel {
+  width: 1143px;
+  height: 356px;
+  margin: auto;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+.review{
+  background-image: radial-gradient(#F0E6EF, #F2C3E6, #F0A6CA);
+  width: 100%;
+  height: 305px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #160C28;
+  border-bottom: 1px solid #160C28;
+}
+.reviewtext{
+  height: 260px;
+  width: 1317px;
+  border-radius: 50%;
+  background-color: #F0E6EF;
+  border: 1px solid #160C28;
+  margin: auto;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
+.homescreenc{
+  display: table-row;
+}
+.findushere{
+  background-color: #F0E6EF;
+  display: table-cell;
+  width: 50%;
+}
+.findushere a{
+  color: #160C28;
+  text-decoration: none;
+}
+.comevisitus{
+  background-color: #F2C3E6;
+  height: max-content;
+  display: table-cell;
+  width: 50%;
+}
+.footerrow {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(#F0A6CA, #160C28);
+  padding: 20px 0;
+}
+.footera,
+.footerb {
+  width: 50%;
+  padding: 0 20px;
+}
+.footerb table {
+  margin-right: 0;
+}
+.footerb table td {
+  padding: 10px;
+}
+.footerb tr {
+  height: fit-content;
+}
+.footerb table img {
+  height: 24px;
+  width: 24px;
+}
+.footerb a{
+  color: #F0E6EF;
+  text-decoration: none;
+}

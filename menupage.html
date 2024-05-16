@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet and Savory Menupage</title>
+</head>
+<link rel="stylesheet" href="menupage.css">
+<link rel="stylesheet" href="menupagejs.js">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+  h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+  }
+  p{
+    font-family: "Montserrat", sans-serif;
+  }
+  a{
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+  }
+</style>
+<body style=" margin-left: 0;margin-right: 0;">
+    <div class="navbar">
+        <a href="homescreen.html">Home</a>
+        <a href="menupage.html">Menu</a>
+        <a style="background:#160C28; color: #F0E6EF">Sweet and Savory</a>
+        <a href="contactus.html">Contact Us</a>
+        <a style="color:#160C28; background: #F0E6EF"> </a>
+    </div>
+    
+    <div class="website">
+      <div class="menupagea">
+        <div class="titlechecker">
+          <center><div class="textcontainer">
+            <h1 style="font-size: 80px; color:#160C28;text-align: center;">OUR MENU</h1>
+          </div></center>
+        </div>
+        <div class="quote">
+          <blockquote style="font-size: 18px; color: #160C28; text-align: center; font-style: italic; font-family: Montserrat, sans-serif;">“Explore our delectable offerings and dive into a world of flavor with our signature creations”!</blockquote>
+        </div>
+        <div class="recomendedbyus">
+          <table style="border-bottom: 1px solid #160C28; margin: auto; width: 1143px;">
+            <tr style="height: fit-content;">
+              <td style="vertical-align: bottom; width: 30%;"><h1 style="font-size: 48px; color: #160C28;">RECOMENDED BY US</h1></td>
+              <td style="padding: 10px;"><p style="font-size: 18px;color: #160C28;">Satisfy Your Cravings with Our Chef's Recommendations for an Unforgettable Culinary Experience!</p></td>
+            </tr>
+          </table>
+          <div class="recomendedbyuscarousel">
+            <div class="menucontainer-container">
+              <div class="menucontainer">
+                <img src="image (2).png" alt="Fried Banana" style="height: 237px;width: 237px;">
+                <p style="font-weight: 700; font-size: 18px;">Fried Banana</p>
+                <p style="font-size: 14px;">Rp 15.000</p>
+              </div>
+              <div class="menucontainer">
+                <img src="spaghettibolognese.png" alt="Fried Banana" style="height: 237px;width: 237px;">
+                <p style="font-weight: 700; font-size: 18px;">Spaghetti Bolognese</p>
+                <p style="font-size: 14px;">Rp 15.000</p>
+              </div>
+              <div class="menucontainer">
+                <img src="image (3).png" alt="Fried Banana" style="height: 237px;width: 237px;">
+                <p style="font-weight: 700; font-size: 18px;">Mile Crepe</p>
+                <p style="font-size: 14px;">Rp 15.000</p>
+              </div>
+              <div class="menucontainer">
+                <img src="image (4).png" alt="Fried Banana" style="height: 237px;width: 237px;">
+                <p style="font-weight: 700; font-size: 18px;">Mango Smoothie</p>
+                <p style="font-size: 14px;">Rp 15.000</p>
+              </div>
+              <div class="menucontainer">
+                <img src="image (1) copy.png" alt="Fried Banana" style="height: 237px;width: 237px;">
+                <p style="font-weight: 700; font-size: 18px;">Spicy Wontons</p>
+                <p style="font-size: 14px;">Rp 15.000</p>
+              </div>
+              <div class="menucontainer">
+                <img src="image (2) copy.png" alt="Fried Banana" style="height: 237px;width: 237px;">
+                <p style="font-weight: 700; font-size: 18px;">Cromboloni</p>
+              </div>
+            </div>
+          </div>
+          <script src="homescreenjs.js"></script> 
+
+      <div class="menupageb">
+        <div class="menubuttons">
+          <button id="allitems">All Items</button>
+          <button id="Pasta">Pasta</button>
+          <button id="Snacks">Snacks</button>
+          <button id="Deserts">Deserts</button>
+          <button id="Beverages">Beverages</button>
+        </div>
+
+        <div class="menuitems">
+          <ul id="item-list">
+            <li class="item" data-category="Snacks"><img src="friedbanana.png" alt=""></li>
+            <li class="item" data-category="Snacks"><img src="friedbanana2.png" alt=""></li>
+            <li class="item" data-category="Snacks"><img src="friedbanana3.png" alt=""></li>
+            <li class="item" data-category="Pasta"><img src="spaghettibrulee.png" alt=""></li>
+            <li class="item" data-category="Pasta"><img src="bakedmacaroni.png" alt=""></li>
+            <li class="item" data-category="Snacks"><img src="spicywontons.png" alt=""></li>
+            <li class="item" data-category="Deserts"><img src="milecrepe.png" alt=""></li>
+            <li class="item" data-category="Deserts"><img src="cromboloni.png" alt=""></li>
+            <li class="item" data-category="Beverages"><img src="mangosmoothie.png" alt=""></li>
+            <li class="item" data-category="Beverages"><img src="chocolatemint.png" alt=""></li>
+          </ul>
+        </div>
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            // your JavaScript code here
+            const allitemsButton = document.getElementById('allitems');
+            const pastaButton = document.getElementById('Pasta');
+            const snacksButton = document.getElementById('Snacks');
+            const desertsButton = document.getElementById('Deserts');
+            const beveragesButton = document.getElementById('Beverages');
+            const itemList = document.getElementById('item-list');
+    
+            allitemsButton.addEventListener('click', () => {
+              itemList.querySelectorAll('.item').forEach(item => {
+                item.style.display = 'block';
+              });
+            });
+    
+            pastaButton.addEventListener('click', () => {
+              itemList.querySelectorAll('.item').forEach(item => {
+                if (item.dataset.category === 'Pasta') {
+                  item.style.display = 'block';
+                } else {
+                  item.style.display = 'none';
+                }
+              });
+            });
+    
+            snacksButton.addEventListener('click', () => {
+              itemList.querySelectorAll('.item').forEach(item => {
+                if (item.dataset.category === 'Snacks') {
+                  item.style.display = 'block';
+                } else {
+                  item.style.display = 'none';
+                }
+              });
+            });
+    
+            desertsButton.addEventListener('click', () => {
+              itemList.querySelectorAll('.item').forEach(item => {
+                if (item.dataset.category === 'Deserts') {
+                  item.style.display = 'block';
+                } else {
+                  item.style.display = 'none';
+                }
+              });
+            });
+    
+            beveragesButton.addEventListener('click', () => {
+              itemList.querySelectorAll('.item').forEach(item => {
+                if (item.dataset.category === 'Beverages') {
+                  item.style.display = 'block';
+                } else {
+                  item.style.display = 'none';
+                }
+              });
+            });
+          });
+        </script>
+      </div>
+
+      <div class="menupagec">
+        <img src="checkerboard page divider.png" alt="checkerboard" style="border-top: 1px solid #160C28; width: 100%;">
+        <div class="ordernowthrough">
+          <table>
+            <tr>
+              <td colspan="4">
+                <h1 style="font-size: 60px; color: #160C28; text-align: center;">ORDER NOW! THROUGH</h1>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="grabpink.png" alt=""></td>
+              <td><p><span style="font-weight: 700;">GrabFood</span><br>Sweet and Savory Kemang Pratama</p></td>
+              <td><img src="whatsapppink.png" alt=""></td>
+              <td><p><span style="font-weight: 700;">WhatsApp</span><br><a href="http://wa.me/6281298068092">+62 812-980-680-92</a></p></td>
+            </tr>
+            <tr>
+              <td><img src="gojekpink.png" alt=""></td>
+              <td><p><span style="font-weight: 700;">GoFood</span><br>Sweet and Savory Kemang Pratama</p></td>
+              <td><img src="instagrampink.png" alt=""></td>
+              <td><p><span style="font-weight: 700;">Instagram</span><br><a href="https://www.instagram.com/key_sweetandsavory?igsh=YWNzZ2x5Y3dqZGoz">@key_sweetandsavory</a></p></td>
+            </tr>
+          </table>
+          <img src="checkerboard page divider.png" alt="checkerboard" style="border-bottom: 1px solid #160C28; width: 100%;">
+        </div>
+      </div>
+    </div>
+    
+    <footer>
+      <div class="footerrow">
+        <div class="footera">
+          <table>
+            <tr>
+              <td><img src="Group 5.png" alt="logo" style="height: 98px; width: 98px"></td>
+              <td><h1 style="font-size: 30px; color: #F0E6EF; margin-left: 20px;">Indulge Instantly with Sweet and Savory – Shop Now!</h1></td>
+            </tr>
+          </table>
+        </div>
+        <div class="footerb">
+          <table>
+            <tr>
+              <td style="width: 33%"><h1 style="font-size: 18px; color: #F0E6EF;">Visit Us!</h1></td>
+              <td style="border-right: 1px solid #F0E6EF; border-left: 1px solid #F0E6EF; width: 34%;" colspan="2"><h1 style="font-size: 18px; color: #F0E6EF;">Order Now!</h1></td>
+              <td style="width: 33%" colspan="2"><h1 style="font-size: 18px; color: #F0E6EF;">Contact Us!</h1></td>
+            </tr>
+            <tr>
+              <td rowspan="2"><p style="font-size: 14px; color: #F0E6EF;">Ruko Kemang Pratama, RT.004, RW.001, Bojong Rawalumbu, Kota Bks, Jawa Barat</p></td>
+              <td style="border-left: 1px solid #F0E6EF;"><img src="grabfooter.png" alt="GrabFood" style="height: 24px; width: 24px;"></td>
+              <td style="border-right: 1px solid #F0E6EF;"><p style="font-size: 14px; color: #F0E6EF;">GrabFood</p></td>
+              <td><img src="whatsappfooter.png" alt="WhatsApp" style="height: 24px; width: 24px;"></td>
+              <td><p style="font-size: 14px; color: #F0E6EF;"><a href="http://wa.me/6281298068092">WhatsApp</a></p></td>
+            </tr>
+            <tr>
+              <td style="border-left: 1px solid #F0E6EF;"><img src="gofoodfooter.png" alt="GoFood" style="height: 24px; width: 24px;"></td>
+              <td style="border-right: 1px solid #F0E6EF;"><p style="font-size: 14px; color: #F0E6EF;">GoFood</p></td>
+              <td><img src="instagramfooter.png" alt="Instagram" style="height: 24px; width: 24px;"></td>
+              <td><p style="font-size: 14px; color: #F0E6EF;"><a href="https://www.instagram.com/key_sweetandsavory?igsh=YWNzZ2x5Y3dqZGoz">Instagram</p></a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
